@@ -23,6 +23,8 @@ One change you will need to make as part of the upgrade is to set `Intercom.app_
 ### Configure your access credentials
 
 ```python
+from intercom import Intercom
+
 Intercom.app_id = "my_app_id"
 Intercom.app_api_key = "my-super-crazy-api-key"
 ```

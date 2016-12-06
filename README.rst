@@ -33,6 +33,7 @@ Configure your access credentials
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: python
+    from intercom import Intercom
 
     Intercom.app_id = "my_app_id"
     Intercom.app_api_key = "my-super-crazy-api-key"
